@@ -1,0 +1,39 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+issueTrackerURL = "https://github.com/davidjjung/fussyazaleas/issues"
+license = "MIT License"
+
+[[mods]]
+modId = "fussy_azaleas"
+version = "${file.jarVersion}"
+logoFile = "logo.png"
+itemIcon = "minecraft:flowering_azalea_bush"
+configBackground = "minecraft:textures/block/azalea_leaves.png"
+authors = "DavigJ"
+credits = "DavigJ"
+displayURL = "https://modrinth.com/project/fussy-azaleas"
+displayName = "Fussy Azaleas"
+description = '''
+    Azalea bushes only spawn from bone-mealing moss in specific biomes.
+    '''
+
+[[dependencies.fussy_azaleas]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,1.21)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.fussy_azaleas]]
+modId = "forge"
+mandatory = true
+versionRange = "[47.2,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.fussy_azaleas]]
+modId = "blueprint"
+mandatory = true
+versionRange = "[7.1.0,)"
+ordering = "AFTER"
+side = "BOTH"
